@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-page.png)
 
-Meteor-application-template-react is a sample Meteor 1.10 application that illustrates:
+Digits is a sample application that illustrates a tool to that allows you to add, remove, and view cards of people in a certain system:
 
   * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
   * [Semantic UI React](https://react.semantic-ui.com/) for user interface.
@@ -11,9 +11,9 @@ Meteor-application-template-react is a sample Meteor 1.10 application that illus
   * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
   * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
 
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
+The goal of this app was simply a practice in how to design and execute a running database for storing and viewing information on people.
 
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
+To keep this codebase simple and small, some important capabilities are intentionally excluded from this app:
 
   * Testing.
   * Security (meteor-application-template-react enables the insecure packages)
@@ -193,21 +193,21 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
-#### Add Stuff page
+#### Add Contact page
 
-After logging in, here is the page that allows you to add new Stuff:
+After logging in, here is the page that allows you to add new Contacts:
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/add-stuff-page.png)
 
-#### List Stuff page
+#### List Contacts page
 
-After logging in, here is the page that allows you to list all the Stuff you have created:
+After logging in, here is the page that allows you to list all the Contacts you have/ and have created:
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/list-stuff-page.png)
 
 You click the "Edit" link to go to the Edit Stuff page, shown next.
 
-#### Edit Stuff page
+#### Edit Contacts page
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
